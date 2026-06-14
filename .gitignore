@@ -1,0 +1,18 @@
+# Build output
+build/
+
+# Editor / tooling
+.cache/
+
+# Source recordings (keep only the exported GIF)
+*.webm
+*.mp4
+
+# Stray build artifacts (in case of an out-of-tree build)
+*.o
+*.elf
+*.bin
+*.elf.txt
+
+# Legacy dirs
+obj/

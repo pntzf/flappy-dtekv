@@ -1,0 +1,14 @@
+#ifndef DTEKVIO_H
+#define DTEKVIO_H
+
+/* DTEK-V peripheral base addresses */
+#define MMIO_LEDS_BASE    0x04000000U
+#define MMIO_TIMER_BASE   0x04000020U
+#define MMIO_JTAG_UART    0x04000040U
+#define MMIO_JTAG_CTRL    0x04000044U
+#define MMIO_HEX_BASE     0x04000050U
+#define MMIO_BUTTON_BASE  0x040000D0U
+#define MMIO_VGA_CTRL     0x04000100U
+#define MMIO_VGA_FB_BASE  0x08000000U
+
+#endif /* DTEKVIO_H */
